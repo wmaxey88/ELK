@@ -27,7 +27,7 @@ _Note: Use the [Markdown Table Generator](http://www.tablesgenerator.com/markdow
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the jump box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- _TODO: 24.158.107.56
+- _TODO: My local IP Address 
 
 Machines within the network can only be accessed by SSH via their NIC Private IP's.
 - _TODO: Which machine did you allow to access your ELK VM? What was its IP address? My Ansible container (reverent_austin) within my jump box machine.  IP is that of my jump box, 10.0.0.1.    
@@ -57,7 +57,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-![TODO: Update the path with the name of your screenshot of docker ps output](Images/Elk_Container_Screenshot.png)
+![Images/Elk_Container_Screenshot.png]
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines: Web-1 and Web-2
