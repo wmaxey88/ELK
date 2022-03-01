@@ -56,7 +56,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-[Images/Elk_Container_Screenshot.png]
+Images/Elk_Container_Screenshot.png
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines: Web-1 and Web-2
@@ -66,7 +66,7 @@ We have installed the following Beats on these machines:
 - Filebeat and Metricbeat 
 
 These Beats allow us to collect the following information from each machine:
-- Filebeat colleccts log data from Web-1, Web-2, and P1-Elk machines.  Metricbeat collects metric data from Web-1 and Web-2 containers.  I would expect to see SSH login attempts/failed attempts within filebeat Syslog dashboard.  
+- Filebeat collects log data from Web-1, Web-2, and P1-Elk machines.  Metricbeat collects metric data from Web-1 and Web-2 containers.  I would expect to see SSH login attempts/failed attempts within filebeat Syslog dashboard.  
 
 ### Using the Playbook
 In order to use the playbook, you will need to have an Ansible control node already configured. Assuming you have such a control node provisioned: 
